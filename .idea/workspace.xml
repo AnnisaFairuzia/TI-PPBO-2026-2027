@@ -4,13 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87f2b460-df06-415a-93e1-71738feb53ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/praktikum-2.iml" afterDir="false" />
+    <list default="true" id="29091b04-6982-4121-a047-2ba0eda6962e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README-praktikum.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praktikum-1/README-praktikum.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praktikum-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../praktikum-3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/BiodataSaya.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DataPribadi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/HitungTarifListrik.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/IfDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/KalkulatorBangunDatar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/KalkulatorSwitch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/KonversiNilai.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/KonversiSuhu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Latihan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/LogikaDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/OperatorDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/OperatorInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ScannerDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/SwitchDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/VariabelDemo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +45,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -35,21 +55,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BiodataSaya.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KalkulatorBangunDatar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ScannerDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VariabelDemo.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BiodataSaya.executor": "Run",
+    "Application.HelloWorld.executor": "Run",
+    "Application.KalkulatorBangunDatar.executor": "Run",
+    "Application.ScannerDemo.executor": "Run",
+    "Application.VariabelDemo.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.KalkulatorBangunDatar">
     <configuration name="BiodataSaya" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BiodataSaya" />
