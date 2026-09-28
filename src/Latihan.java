@@ -109,5 +109,6 @@ public class Latihan {
         } else {
             System.out.println("Kategori: Obesitas");
         }
+        input.close();
     }
 }

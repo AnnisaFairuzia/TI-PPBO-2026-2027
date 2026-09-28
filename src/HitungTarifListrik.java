@@ -18,7 +18,7 @@ public class HitungTarifListrik {
         System.out.print("Masukkan pemakaian listrik (kWh): ");
         double kwh = input.nextDouble();
 
-        if (kwh <= 0) {
+        if (kwh < 0 || kwh == 0) {
             System.out.println("Pemakaian listrik harus lebih dari 0 kWh.");
         } else {
 
@@ -48,6 +48,9 @@ public class HitungTarifListrik {
 
             double total = kwh * tarif;
 
+            System.out.println("\n=== HASIL PERHITUNGAN ===");
+            System.out.println("Golongan daya: " + pilihan);
+            System.out.println("Pemakaian listrik: " + kwh + " kWh");
             System.out.println("Tarif per kWh: Rp" + tarif);
             System.out.println("Total tarif listrik: Rp" + total);
         }
