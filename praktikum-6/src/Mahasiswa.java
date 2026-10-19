@@ -16,4 +16,16 @@ public class Mahasiswa {
         this.nim = nim;
         this.ipk = ipk;
     }
+
+    // Method untuk menampilkan data mahasiswa
+    public void tampilkanData() {
+        System.out.println("Nama: " + nama);
+        System.out.println("NIM : " + nim);
+        System.out.println("IPK : " + ipk);
+    }
+
+    // Method untuk mengecek cumlaude
+    public boolean isCumlaude() {
+        return ipk >= 3.5;
+    }
 }
