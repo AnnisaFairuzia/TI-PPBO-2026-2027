@@ -22,4 +22,3 @@ public class DaftarMahasiswa {
         System.out.println("Jumlah mahasiswa cumlaude: " + jumlahCumlaude);
     }
 }
-
