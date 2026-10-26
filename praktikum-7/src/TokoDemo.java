@@ -20,27 +20,29 @@ public class TokoDemo {
         Produk mouse = daftarProduk[1];
         int jumlahBeli = 2;
 
-        System.out.println("Membeli " + jumlahBeli + " " + mouse.namaProduk);
-        System.out.println("Total harga: Rp" +
-                mouse.hitungTotalHarga(jumlahBeli));
+        System.out.println("Membeli " + jumlahBeli + " "
+                + mouse.getNamaProduk());
+        System.out.println("Total harga: Rp"
+                + mouse.hitungTotalHarga(jumlahBeli));
         mouse.kurangiStok(jumlahBeli);
-        System.out.println("Stok tersisa: " + mouse.stok);
+        System.out.println("Stok tersisa: " + mouse.getStok());
 
         // Pembelian kedua: 10 laptop, stok tidak mencukupi
         Produk laptop = daftarProduk[0];
         jumlahBeli = 10;
 
-        System.out.println("\nMembeli " + jumlahBeli + " " + laptop.namaProduk);
-        System.out.println("Total harga: Rp" +
-                laptop.hitungTotalHarga(jumlahBeli));
+        System.out.println("\nMembeli " + jumlahBeli + " "
+                + laptop.getNamaProduk());
+        System.out.println("Total harga: Rp"
+                + laptop.hitungTotalHarga(jumlahBeli));
         laptop.kurangiStok(jumlahBeli);
-        System.out.println("Stok tersisa: " + laptop.stok);
+        System.out.println("Stok tersisa: " + laptop.getStok());
 
         // Mencari produk dengan harga paling mahal
         Produk termahal = daftarProduk[0];
 
         for (Produk p : daftarProduk) {
-            if (p.harga > termahal.harga) {
+            if (p.getHarga() > termahal.getHarga()) {
                 termahal = p;
             }
         }
