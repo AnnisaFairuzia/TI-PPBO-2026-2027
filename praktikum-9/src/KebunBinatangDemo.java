@@ -4,7 +4,8 @@ public class KebunBinatangDemo {
         Hewan[] daftarHewan = {
                 new Kucing("Milo"),
                 new Anjing("Rex"),
-                new Kucing("Oyen")
+                new Kucing("Oyen"),
+                new Bebek("Donald")
         };
 
         for (Hewan h : daftarHewan) {
