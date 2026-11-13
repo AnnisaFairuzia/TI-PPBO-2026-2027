@@ -7,6 +7,7 @@ public class Manager extends Pegawai {
         this.tunjanganJabatan = tunjanganJabatan;
     }
 
+    // TAMBAHKAN METHOD DI SINI
     public void tampilkanRingkasan() {
         System.out.println("Manager: " + nama);
     }

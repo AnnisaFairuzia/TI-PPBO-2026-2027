@@ -6,4 +6,8 @@ public class Direktur extends Manager {
         super(nama, nip, gajiPokok, tunjanganJabatan);
         this.tunjanganSaham = tunjanganSaham;
     }
+
+    public double getTunjanganSaham() {
+        return tunjanganSaham;
+    }
 }
